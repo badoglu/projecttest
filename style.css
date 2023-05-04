@@ -1,0 +1,126 @@
+
+
+
+
+.heading1 {
+    color: darkred;
+    background-color: paleturquoise;
+    margin-top: 55px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+p {
+    text-shadow: none;
+    
+}
+
+a { 
+    text-decoration: none;
+    font-style: oblique;
+}
+
+ul li a {
+    color: darkolivegreen;
+    background-color: cornsilk;
+    text-decoration: none;
+    font-size: medium;
+    font-style: inherit;
+    border: solid black;
+    padding: 5px 5px;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+    text-decoration: overline;
+    font-size: 25px;
+    border-radius: 5px;
+
+    
+    
+}
+
+.box-1 {
+
+    background: rgb(139, 111, 111);
+    color: black;
+    background-image: url("nblogo.png");
+    width: 240px;
+    height: 240px;
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 3px;
+    margin-left: 80%;
+    
+}
+
+.box-2 {
+    background: darkgreen;
+    color: bisque;
+    background-image: url("unblogo.jpg");
+    width: 960px;
+    height: 640px;
+    background-size: cover;
+    border-style: solid;
+    border-width: 5px;
+    border-color: cornsilk;
+    border-radius: 3px;
+    position: relative;
+    left: 25px;
+
+    }
+
+    #unb.com {
+        display: inline-block;
+        background: darkred;
+        width: 100px;
+        height: 100px;
+
+        margin-top: 350px;
+        margin-bottom: 350px;
+        
+    }
+
+     a:hover {
+
+        color: darkkhaki;
+
+    }
+
+    a:visited {
+
+        color: darkred;
+    }
+
+    a:active {
+
+        color: azure;
+    }
+
+    input {
+        font-size: 1.5em;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px black solid;
+    }
+
+    input:focus {
+        outline: 0;
+        border: 2px solid black; 
+    }
+
+
+    .fixed-topbar {
+
+        width: 40%;
+        padding: 25px;
+        background-color: darkred;
+        color: darkkhaki;
+        text-align: center;
+        position: relative;
+        bottom: 0px;
+        top: 25px;
+
+    }
